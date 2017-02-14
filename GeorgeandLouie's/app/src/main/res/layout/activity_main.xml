@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0277BD"
+    tools:context="com.example.android.georgeandlouies.MainActivity">
+
+
+
+    <ImageView
+        android:src="@drawable/wine_chips"
+        android:id="@+id/businessimage"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/business_name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#E0F2F1"
+        android:background="#00897B"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:text="George and Louie's" />
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textStyle="italic"
+        android:backgroundTint="#004D40"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:text="Home of the freshest Seafood, Fried Green Tomatoes, and Louie’s Famous Greek Salad!"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:id="@+id/phone_number"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:text="(229) 226-1218" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bizaddress"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        
+        android:text="217 Remington Avenue
+Thomasville, Georgia 31792" />
+</RelativeLayout>
